@@ -1,0 +1,46 @@
+* HOME
+home__social
+https://www.linkedin.com/
+https://github.com/
+
+home__description
+
+
+
+* ABOUT
+about__description
+
+
+about__info-name
+Years <br> experience
+Completed <br> project
+Companies <br> worked
+
+
+* SERVICES
+services__modal-service
+
+
+
+* PORTFOLIO
+portfolio__description
+
+
+
+* PROJECT
+project__description
+
+
+
+* TESTIMONIAL
+testimonial__description
+
+
+
+* FOOTER
+footer__social
+https://www.facebook.com/
+https://www.instagram.com/
+https://twitter.com/
+
+
