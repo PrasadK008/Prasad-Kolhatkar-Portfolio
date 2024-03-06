@@ -6,17 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <title>Prasad Kolhatkar Portfolio Website</title>
+    <title>Prasad Kolhatkar - Full Stack Developer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="nofollow"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+        .horizontal-menu {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .horizontal-menu li {
+            display: inline-block;
+            padding: 20px;
+        }
+
+        .horizontal-menu a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .horizontal-menu a:hover {
+            color: #ffcc00;
+        }
+
+        .horizontal-menu li:first-child a {
+            border-radius: 5px 0 0 5px;
+        }
+
+        .horizontal-menu li:last-child a {
+            border-radius: 0 5px 5px 0;
+        }
+    </style>
 </head>
 
 <body>
     <header class="header" id="header">
+        <h1>Prasad Kolhatkar</h1>
+        <h2>Full Stack Developer with 15 Years of Experience</h2>
         <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
+            <ul class="horizontal-menu">
+                <li><a href="#home" class="active">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#qualifications">Qualifications</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#companies">companies</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -24,47 +66,161 @@
     <main class="main">
         <!--==================== HOME ====================-->
         <section class="home section" id="home">
-            Home
+            <p><strong>Home</strong></p>
+            <p>Technical Lead with 15 years of experience in .NET technologies, React JS, HTML, CSS, J-Query, Python,
+                and Prompt Engineering.
+            </p>
+            <p>
+                I am having proven track record of success in developing and maintaining web applications, with
+                expertise in MVC.NET, Python, and React.
+            </p>
         </section>
 
         <!--==================== ABOUT ====================-->
         <section class="about section" id="about">
-            About
+            <p><strong>About Me</strong></p>
+            <p>I am a passionate and results-driven Full Stack Developer with <strong>15 years of hands-on
+                    experience</strong> in designing, developing, and deploying robust web applications. My expertise
+                spans various technologies, and I thrive on solving complex problems and creating elegant solutions.</p>
+
         </section>
 
         <!--==================== SKILLS ====================-->
         <section class="skills section" id="skills">
-            Skills
+            <p><strong>Key Skills, Technologies & Accomplishments</strong></p>
+            <ul>
+                <li><strong></strong>
+                    <ul>
+                        <li><strong> Languages:</strong> React JS, Python, JavaScript, C#</li>
+                        <li><strong> Frameworks:</strong> Dot net core, ASP.NET MVC, Prompt Engineering</li>
+                        <li><strong> Databases:</strong> SQL</li>
+                        <li><strong>Other Tools and Technologies:</strong> Git, Jupiter notebook, Large Language Models
+                            (LLMs)</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <p><strong>Accomplishments</strong></p>
+            <ul>
+                <li>
+                    <ul>
+                        <li>Certification of Prompt Engineering Mastery (2023)</li>
+                        <li>Certification of ChatGPT Complete Guide (2023)</li>
+                        <li>Certification of python from Udemy</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul>
+                <li><strong>Front-End Development:</strong>
+                    <ul>
+                        <li>React.js: Proficient in building dynamic and responsive user interfaces using React.js. I've
+                            developed several single-page applications (SPAs) and integrated them seamlessly with
+                            back-end services.</li>
+                        <li>JavaScript/ES6: Strong understanding of modern JavaScript, including ES6 features. I
+                            leverage JavaScript libraries and frameworks to enhance user experiences.</li>
+                        <li>HTML5/CSS3: Skilled in creating clean and semantic HTML/CSS code. I ensure cross-browser
+                            compatibility and responsive design.</li>
+                    </ul>
+                </li>
+                <li><strong>Back-End Development:</strong>
+                    <ul>
+                        <li>MVC.NET: Extensive experience in developing web applications using ASP.NET MVC. I follow
+                            best practices for architecture, routing, and data management.</li>
+                        <li>C#: Proficient in C# programming. I've built RESTful APIs, implemented authentication, and
+                            optimized database queries.</li>
+                        <li>Entity Framework: Skilled in using Entity Framework for data access. I design efficient
+                            database schemas and manage data migrations.</li>
+                        <li>Python: Adept at using Python for scripting, data analysis, and automation. I've worked with
+                            libraries like Pandas, NumPy, and Flask.</li>
+                    </ul>
+                </li>
+                <li><strong>Database and Cloud:</strong>
+                    <ul>
+                        <li>SQL Server: Proficient in designing and optimizing SQL databases. I've written complex
+                            queries, stored procedures, and triggers.</li>
+                        <li>Azure: Experience with Microsoft Azure services. I've deployed applications to Azure App
+                            Service and used Azure SQL Database.</li>
+                    </ul>
+                </li>
+                <li><strong>DevOps and Tools:</strong>
+                    <ul>
+                        <li>Git/GitHub: I follow version control best practices and collaborate effectively with team
+                            members.</li>
+                        <li>Docker: Familiar with containerization using Docker. I've created Docker images for seamless
+                            deployment.</li>
+                        <li>Visual Studio: My go-to IDE for .NET development. I use it for debugging, profiling, and
+                            code analysis.</li>
+                    </ul>
+                </li>
+            </ul>
         </section>
 
         <!--==================== QUALIFICATION ====================-->
         <section class="qualification section" id="qualifications">
-            Qualifications
-        </section>
-
-        <!--==================== SERVICES ====================-->
-        <section class="services section" id="services">
-            Services
-        </section>
-
-        <!--==================== PORTFOLIO ====================-->
-        <section class="portfolio section" id="portfolio">
-            Section 1
+            <p><strong>Qualifications</strong></p>
+            <ul>
+                <li>
+                    <ul>
+                        <li>Master of Computer Application (MCA) from VBMV, Amravati (2006 - 2009)</li>
+                        <li>Bachelor of Computer Science (B. Sc.) from Shri Shivaji College, Akola (2004 - 2006)</li>
+                    </ul>
+                </li>
+            </ul>
         </section>
 
         <!--==================== PROJECT IN MIND ====================-->
-        <section class="project section">
-            Projects
+        <section class="projects section" id="projects">
+            <p><strong>Projects</strong></p>
+            I got the opportunity to work on 14 Projects such as CCI, CMI, SDC, CCR, HI, CR, EDEL, TPH, CO, DID, QRI, RV, AIML, CCI24 using MVC.NET, Python and ReactJS
+            <ol>
+                <li><strong>CCI24 (ReactJS + dotnet core):</strong>
+                    <ul>
+                        <li>Develop website poject complete implementation</li>
+                        <li>Provided functionality to various pages </li>
+                    </ul>
+                </li>
+                <li><strong>AIML (Python + Machine Learning):</strong>
+                    <ul>
+                        <li>Designed project prototype to build development platform for Machine Learning.</li>
+                        <li>Implemented prediction analysis project.</li>
+                    </ul>
+                </li>
+                <li><strong>CCI, CMI, SDC (React.js + ASP.NET MVC):</strong>
+                    <ul>
+                        <li>Developed a feature-rich e-commerce platform with real-time inventory management, secure
+                            payment gateways, and personalized recommendations.</li>
+                        <li>Integrated React.js components for a smooth user experience.</li>
+                    </ul>
+                </li>
+            </ol>
         </section>
 
-        <!--==================== TESTIMONIAL ====================-->
-        <section class="testimonial section">
-            Testimonial
+        <!--==================== companies ====================-->
+        <section class="companies section" id="companies">
+            <p><strong>Companies</strong></p>
+            <ul>
+                <li>
+                    <ul>
+                        <li>Technical Lead at CCR Technologies, Pune (Mar 2013-Present)</li>
+                        <li>Sr. Software Engineer at Smart Soft Tech Solution Pvt. Ltd. (Sept. 2009-Feb 2013)</li>
+                    </ul>
+                </li>
+            </ul>
         </section>
 
         <!--==================== CONTACT ME ====================-->
         <section class="contact section" id="contact">
-            Contact
+            <p><strong>Contact</strong></p>
+            <ul>
+                <li>
+                    <ul>
+                        <li>Phone: +91-91464 09608</li>
+                        <li>Email: prasad.kolhatkar17@gmail.com</li>
+                        <li>Website: https://prasadkolhatkar17.wordpress.com</li>
+                    </ul>
+                </li>
+            </ul>
         </section>
     </main>
 
