@@ -3,4 +3,4 @@
 
 - Responsive Personal Portfolio Website Using HTML CSS & JavaScript
 
-![preview img](/preview.png)
+![preview img](/preview.jpg.webp)
