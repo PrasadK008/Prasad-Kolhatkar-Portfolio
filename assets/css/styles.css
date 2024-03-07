@@ -345,7 +345,7 @@ header {
 
 .horizontal-menu li {
   display: inline-block;
-  padding: 20px;
+  padding: 8px;
 }
 
 .horizontal-menu a {
@@ -412,7 +412,25 @@ transition: opacity 1s ease-in-out;
 
 
 /* Change background header */
+.skills { 
+  height:100vh;
+  background: url('../img/PKArt_CoverPage.jpg') no-repeat;
+  position:relative; 
+  -webkit-transition: opacity 1s ease-in-out;
+-moz-transition: opacity 1s ease-in-out;
+-o-transition: opacity 1s ease-in-out;
+-ms-transition: opacity 1s ease-in-out;
+transition: opacity 1s ease-in-out;
+}
 
+.clsKeySkillsTitle{
+  color: #319b98;
+}
+
+.positionToBottom{
+  position: absolute;
+  bottom: 0;
+} 
 
 /*==================== HOME ====================*/
 
